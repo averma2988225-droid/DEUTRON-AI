@@ -21,7 +21,7 @@ export function Navbar({ onNewScan, activeTab, setActiveTab }: NavbarProps) {
           className="text-left group flex items-center transition"
         >
           <span className="text-2xl font-bold tracking-tight text-neutral-900 font-sans">
-            PatchPilot<span className="text-black font-extrabold">.</span>
+            Deutron-AI<span className="text-black font-extrabold">.</span>
           </span>
         </button>
 
