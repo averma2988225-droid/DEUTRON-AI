@@ -52,7 +52,7 @@ export function Navbar({ onNewScan, activeTab, setActiveTab }: NavbarProps) {
             Architecture
           </button>
           <a
-            href="https://github.com/sankalp2515/PatchPilot"
+            href="https://github.com/averma2988225-droid/DEUTRON-AI.git"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-neutral-900"
