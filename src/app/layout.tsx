@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PatchPilot. — Detect API Changes & Fix Code",
+  title: "Deutron-AI. — Detect API Changes & Fix Code",
   description:
     "AI-powered API change detection, impact analysis, and reliable code repair.",
 };
