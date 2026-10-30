@@ -15,6 +15,7 @@ interface StepConfig {
   description: string;
 }
 
+
 const STEPS: StepConfig[] = [
   {
     key: "connecting",

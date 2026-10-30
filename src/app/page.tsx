@@ -9,6 +9,12 @@ import { ImpactReport } from "@/components/ImpactReport";
 import { ScanReport } from "@/types";
 import { CHANGELOG_PRESETS } from "@/lib/presets";
 
+
+
+
+
+
+
 export default function Home() {
   const [activeTab, setActiveTab] = useState<string>("landing");
   const [currentScanId, setCurrentScanId] = useState<string | null>(null);

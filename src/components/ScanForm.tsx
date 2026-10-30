@@ -13,6 +13,8 @@ import {
   Globe,
 } from "lucide-react";
 
+
+
 interface ScanFormProps {
   onSubmit: (repoUrl: string, branch: string, changelogText: string) => void;
   isLoading?: boolean;

@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "AI-powered API change detection, impact analysis, and reliable code repair.",
 };
+  
 
 export default function RootLayout({
   children,

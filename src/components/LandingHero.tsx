@@ -10,6 +10,7 @@ interface LandingHeroProps {
   onExplorePreset: (presetId: string) => void;
 }
 
+
 const QUICK_HERO_REPOS = [
   { label: "Stripe Payment Sample", url: "https://github.com/stripe-samples/accept-a-payment" },
   { label: "Firebase Quickstart", url: "https://github.com/firebase/quickstart-js" },

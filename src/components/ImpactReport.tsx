@@ -15,6 +15,8 @@ import {
   GitBranch,
 } from "lucide-react";
 
+
+
 interface ImpactReportProps {
   report: ScanReport;
   onNewScan: () => void;

@@ -9,6 +9,8 @@ interface NavbarProps {
   setActiveTab?: (tab: string) => void;
 }
 
+
+
 export function Navbar({ onNewScan, activeTab, setActiveTab }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 w-full bg-[#fbfbfa]/90 backdrop-blur-md">
