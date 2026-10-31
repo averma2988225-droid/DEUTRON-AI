@@ -2,7 +2,7 @@
 
 > **Detect API changes. Find affected code. Generate reliable fixes.**
 
-PatchPilot is an AI-powered API change detection and automated code repair platform designed for engineering teams maintaining third-party integrations (Stripe, Firebase, OpenAI, GitHub, and more).
+deutron-ai is an AI-powered API change detection and automated code repair platform designed for engineering teams maintaining third-party integrations (Stripe, Firebase, OpenAI, GitHub, and more).
 
 ---
 
