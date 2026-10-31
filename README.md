@@ -94,8 +94,8 @@ Deutron-AI includes 4 ready-to-run presets with realistic codebases for instant 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/sankalp2515/PatchPilot.git
-cd PatchPilot
+git clone https://github.com/averma2988225-droid/DEUTRON-AI
+cd DEUTRON-AI
 
 # Install dependencies
 yarn install # or npm install
