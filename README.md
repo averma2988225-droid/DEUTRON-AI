@@ -13,13 +13,13 @@ Modern applications depend on numerous third-party APIs. When providers release 
 - Response payloads and object pointers change.
 - Existing integrations fail silently or crash in production.
 
-Developers typically spend hours reading changelogs, manually searching codebases, and figuring out replacement contracts. **PatchPilot automates this workflow with deterministic precision and evidence-backed AI repairs.**
+Developers typically spend hours reading changelogs, manually searching codebases, and figuring out replacement contracts. **DeutronAI automates this workflow with deterministic precision and evidence-backed AI repairs.**
 
 ---
 
 ## 2. Core Architecture Pipeline
 
-PatchPilot separates detection, AI reasoning, patch generation, and verification into independent stages. The LLM is **never** the sole source of truth; deterministic scanning and evidence validation ground its findings:
+deutron ai separates detection, AI reasoning, patch generation, and verification into independent stages. The LLM is **never** the sole source of truth; deterministic scanning and evidence validation ground its findings:
 
 ```
 Public GitHub Repository
@@ -57,7 +57,7 @@ Public GitHub Repository
 
 ## 4. Built-in Demonstration Scenarios
 
-PatchPilot includes 4 ready-to-run presets with realistic codebases for instant hackathon evaluation:
+Deutron-AI includes 4 ready-to-run presets with realistic codebases for instant hackathon evaluation:
 
 1. **Stripe 2025-03-31 (Basil Release)**:
    - *Breaking Change*: Direct `invoice.payment_intent` and `invoice.charge` fields removed from the Invoice object.
@@ -104,7 +104,7 @@ yarn install # or npm install
 yarn dev # or npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open (http://localhost:3000) in your browser.
 
 ### Optional Environment Variables (`.env.local`)
 ```env
@@ -115,4 +115,4 @@ GITHUB_TOKEN=your_github_token_here
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-*Note: PatchPilot is fully functional out of the box with built-in presets even without API keys.*
+*Note: Deutron ai is fully functional out of the box with built-in presets even without API keys.*
